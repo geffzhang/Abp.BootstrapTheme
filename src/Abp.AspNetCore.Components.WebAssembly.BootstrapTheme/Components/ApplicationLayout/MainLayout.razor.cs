@@ -1,15 +1,21 @@
 ﻿// **********************************
 using BootstrapBlazor.Components;
 using Microsoft.AspNetCore.Components;
+using Microsoft.Extensions.Options;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Threading.Tasks;
+using Volo.Abp.AspNetCore.Components.WebAssembly.Theming.Routing;
 
 namespace Abp.AspNetCore.Components.WebAssembly.BootstrapTheme.Components.ApplicationLayout
 {
     public partial class MainLayout
     {
         private bool UseTabSet { get; set; }
+
+        [Inject]
+        protected IOptions<AbpRouterOptions> RouterOptions { get; set; }
 
         [Inject]
         protected MainMenuProvider MainMenuProvider { get; set; }
@@ -58,6 +64,20 @@ namespace Abp.AspNetCore.Components.WebAssembly.BootstrapTheme.Components.Applic
         private async Task<List<MenuItem>> GetIconSideMenuItems()
         {
             return await MainMenuProvider.GetMenuAsync();  
+        }
+
+        private IEnumerable<Assembly> GetAdditionalAssemblies()
+        {
+            List<Assembly> list = new List<Assembly>();
+            var asmyList =  RouterOptions.Value.AdditionalAssemblies;
+            var asm = RouterOptions.Value.AppAssembly;
+            
+            list = asmyList.ToList();
+            if(!list.Contains(asm))
+            {
+                list.Add(asm);
+            }
+            return list;
         }
     }
 }
