@@ -40,8 +40,8 @@ namespace Abp.AspNetCore.Components.WebAssembly.BootstrapTheme
             context.Services.AddSingleton(typeof(ISyncfusionStringLocalizer), typeof(SyncfusionLocalizer));
 
             // Set the default culture of the application
-            CultureInfo.DefaultThreadCurrentCulture = new CultureInfo("zh");
-            CultureInfo.DefaultThreadCurrentUICulture = new CultureInfo("zh");
+            CultureInfo.DefaultThreadCurrentCulture = new CultureInfo("zh-CN");
+            CultureInfo.DefaultThreadCurrentUICulture = new CultureInfo("zh-CN");
 
             #endregion
         }

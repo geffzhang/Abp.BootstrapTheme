@@ -29,7 +29,7 @@ namespace Abp.BootstrapTheme.Blazor.Host
         private static async Task GetCultureAsync(WebAssemblyHost host)
         {
             var jsInterop = host.Services.GetRequiredService<IJSRuntime>();
-            var result = await jsInterop.InvokeAsync<string>("cultureInfo.get");
+            var result = await jsInterop.InvokeAsync<string>("cultureInfo.get") ?? CultureInfo.CurrentCulture.Name; 
             if (result != null)
             {
                 // Set the culture from culture switcher
@@ -37,6 +37,7 @@ namespace Abp.BootstrapTheme.Blazor.Host
                 CultureInfo.DefaultThreadCurrentCulture = culture;
                 CultureInfo.DefaultThreadCurrentUICulture = culture;
             }
+           
         }
     }
 }
