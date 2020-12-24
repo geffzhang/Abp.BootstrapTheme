@@ -1,0 +1,83 @@
+﻿@page "/list-list2"
+
+<div class="p-3">
+    <div class="row mb-3">
+        <div class="col-auto"><label class="col-form-label">编码：</label></div>
+        <div class="col-auto"><BootstrapInput TValue="string" /></div>
+        <div class="col-auto"><label class="col-form-label">描述：</label></div>
+        <div class="col-auto"><BootstrapInput TValue="string" /></div>
+    </div>
+    <div class="mb-3">
+        <Button Text="搜索" />
+        <Button Text="新增父代码" />
+        <Button Text="新增子代码" />
+        <Button Text="删除父代码" Color="Color.Danger" />
+        <Button Text="删除子代码" Color="Color.Danger" />
+    </div>
+    <div class="mb-3 d-flex" style="justify-content: space-between;">
+        <div style="width: 50%">
+            <Table TItem="TsbCode" ShowSkeleton="true"
+                   IsPagination="true" PageItemsSource="@PageItemsSource"
+                   IsStriped="true" IsBordered="true"
+                   IsMultipleSelect="true" OnQueryAsync="@OnQueryAsync">
+                <TableColumns>
+                    <TableColumn @bind-Field="@context.CodeClass" Sortable="true" Text="编码" />
+                    <TableColumn @bind-Field="@context.CodeName" Sortable="true" Text="名称" />
+                    <TableColumn @bind-Field="@context.CodeSource" Sortable="true" Text="来源" />
+                    <TableColumn @bind-Field="@context.CodeDesc1Name" Sortable="true" Text="描述1" Filterable="true" />
+                    <TableColumn @bind-Field="@context.CodeDesc1Name" Sortable="true" Text="描述2" />
+                    <TableColumn @bind-Field="@context.CodeDesc1Name" Sortable="true" Text="描述3" />
+                    <TableColumn @bind-Field="@context.CodeDesc1Name" Sortable="true" Text="描述4" />
+                </TableColumns>
+            </Table>
+        </div>
+        <div>&nbsp;</div>
+        <div style="width: 50%">
+            <Table TItem="TsbCode" ShowSkeleton="true"
+                   IsPagination="true" PageItemsSource="@PageItemsSource"
+                   IsStriped="true" IsBordered="true"
+                   IsMultipleSelect="true" OnQueryAsync="@OnQueryAsync">
+                <TableColumns>
+                    <TableColumn @bind-Field="@context.CodeClass" Sortable="true" Text="编码" />
+                    <TableColumn @bind-Field="@context.CodeName" Sortable="true" Text="名称" />
+                    <TableColumn @bind-Field="@context.CodeSource" Sortable="true" Text="来源" />
+                    <TableColumn @bind-Field="@context.CodeDesc1Name" Sortable="true" Text="描述1" Filterable="true" />
+                    <TableColumn @bind-Field="@context.CodeDesc1Name" Sortable="true" Text="描述2" />
+                    <TableColumn @bind-Field="@context.CodeDesc1Name" Sortable="true" Text="描述3" />
+                    <TableColumn @bind-Field="@context.CodeDesc1Name" Sortable="true" Text="描述4" />
+                </TableColumns>
+            </Table>
+        </div>
+    </div>
+</div>
+
+@code {
+    private IEnumerable<int> PageItemsSource => new int[] { 4, 8, 12, 20 };
+
+    private List<TsbCode> TsbCodes { get; set; } = InitTsbCodes();
+
+    private static List<TsbCode> InitTsbCodes() => Enumerable.Range(1, 80).Select(i => new TsbCode()
+    {
+        CodeClass = "CodeClass" + i,
+        CodeName = "CodeName" + i,
+        CodeSource = "CodeSource" + i,
+        CodeDesc1Name = "CodeDesc1Name" + i,
+        CodeDesc2Name = "CodeDesc2Name" + i,
+        CodeDesc3Name = "CodeDesc3Name" + i,
+        CodeDesc4Name = "CodeDesc4Name" + i,
+    }).ToList();
+
+    private Task<QueryData<TsbCode>> OnQueryAsync(QueryPageOptions options) => BindItemQueryAsync(TsbCodes, options);
+
+    private Task<QueryData<TsbCode>> BindItemQueryAsync(IEnumerable<TsbCode> items, QueryPageOptions options)
+    {
+        var total = items.Count();
+        items = items.Skip((options.PageIndex - 1) * options.PageItems).Take(options.PageItems).ToList();
+
+        return Task.FromResult(new QueryData<TsbCode>()
+        {
+            Items = items,
+            TotalCount = total
+        });
+    }
+}
