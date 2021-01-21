@@ -12,7 +12,7 @@ namespace Abp.AspNetCore.Components.WebAssembly.BootstrapTheme.Components.Applic
 {
     public partial class MainLayout
     {
-        private bool UseTabSet { get; set; }
+        protected bool UseTabSet { get; set; } = true;
 
         [Inject]
         protected IOptions<AbpRouterOptions> RouterOptions { get; set; }
