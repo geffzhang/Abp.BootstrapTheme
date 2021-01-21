@@ -4,6 +4,7 @@ using Abp.BootstrapTheme.Management.Blazor;
 using Blazorise.Bootstrap;
 using Blazorise.Icons.FontAwesome;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Net.Http;
@@ -67,7 +68,7 @@ namespace Abp.BootstrapTheme.Blazor.Host
         {
             builder.Services.AddOidcAuthentication(options =>
             {
-                //builder.Configuration.Bind("AuthServer", options.ProviderOptions);
+                builder.Configuration.Bind("AuthServer", options.ProviderOptions);
                 options.ProviderOptions.DefaultScopes.Add("BootstrapTheme");
             });
         }

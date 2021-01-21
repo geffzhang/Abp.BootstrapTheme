@@ -8,7 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Volo.Abp.Ddd.Domain" Version="4.0.2" />
+    <PackageReference Include="Volo.Abp.Ddd.Domain" Version="4.1.2" />
     <ProjectReference Include="..\Abp.BootstrapTheme.Domain.Shared\Abp.BootstrapTheme.Management.Domain.Shared.csproj" />
   </ItemGroup>
 
