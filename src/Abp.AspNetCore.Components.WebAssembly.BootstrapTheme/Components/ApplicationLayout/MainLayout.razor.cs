@@ -1,7 +1,9 @@
 ﻿// **********************************
 using BootstrapBlazor.Components;
 using Microsoft.AspNetCore.Components;
+using Microsoft.AspNetCore.Components.Authorization;
 using Microsoft.Extensions.Options;
+using Microsoft.FeatureManagement;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
@@ -12,7 +14,20 @@ namespace Abp.AspNetCore.Components.WebAssembly.BootstrapTheme.Components.Applic
 {
     public partial class MainLayout
     {
-        protected bool UseTabSet { get; set; } = true;
+        protected bool UseTabSet { get; set; } = false;
+
+        /// <summary>
+        /// 特性开关
+        /// </summary>
+        [Inject]
+        protected IFeatureManager FeatureManager { get; set; }
+
+        [Inject]
+        protected AuthenticationStateProvider AuthenticationStateProvider { get; set; }
+
+
+        [Inject]
+        protected NavigationManager NavigationManager { get; set; }
 
         [Inject]
         protected IOptions<AbpRouterOptions> RouterOptions { get; set; }
@@ -56,6 +71,17 @@ namespace Abp.AspNetCore.Components.WebAssembly.BootstrapTheme.Components.Applic
         protected override async Task OnInitializedAsync()
         {
             base.OnInitialized();
+            
+            var enabled = await FeatureManager.IsEnabledAsync("EnabledAuthentication");
+            if (enabled)
+            {
+                var state = await AuthenticationStateProvider.GetAuthenticationStateAsync();
+                if (!state.User.Identity.IsAuthenticated)
+                {
+                    NavigationManager.NavigateTo("/authentication/login", true);
+                }
+            }
+            
             Menus = await GetIconSideMenuItems();
         }
 

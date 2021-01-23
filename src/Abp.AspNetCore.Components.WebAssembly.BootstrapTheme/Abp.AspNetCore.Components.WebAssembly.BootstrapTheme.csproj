@@ -19,6 +19,7 @@
   <ItemGroup>
     <PackageReference Include="BootstrapBlazor" Version="5.0.11" />
     <PackageReference Include="Syncfusion.Blazor" Version="18.4.0.35" />
+    <PackageReference Include="Microsoft.FeatureManagement" Version="2.2.0" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Abp.BootstrapTheme.Domain.Shared\Abp.BootstrapTheme.Management.Domain.Shared.csproj" />

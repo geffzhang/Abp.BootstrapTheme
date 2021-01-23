@@ -1,4 +1,5 @@
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.FeatureManagement;
 using Microsoft.JSInterop;
 using Syncfusion.Blazor;
 using System;
@@ -34,6 +35,7 @@ namespace Abp.AspNetCore.Components.WebAssembly.BootstrapTheme
 
             context.Services.AddBootstrapBlazor();
             context.Services.AddSyncfusionBlazor();
+            context.Services.AddFeatureManagement();
 
             #region Localization
             // Register the Syncfusion locale service to customize the  SyncfusionBlazor component locale culture

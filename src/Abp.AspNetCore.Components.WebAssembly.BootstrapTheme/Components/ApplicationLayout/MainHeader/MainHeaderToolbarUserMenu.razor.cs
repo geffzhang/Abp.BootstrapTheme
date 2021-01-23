@@ -83,6 +83,11 @@ namespace Abp.AspNetCore.Components.WebAssembly.BootstrapTheme.Components.Applic
             Navigation.NavigateTo(uri);
         }
 
+        protected virtual void OnClick()
+        {
+            Navigation.NavigateTo("authentication/login", true);
+        }
+
         protected virtual string CalculateUserFullName()
         {
             //TODO: Should we move this logic to some extension method for the ICurrentUser?
