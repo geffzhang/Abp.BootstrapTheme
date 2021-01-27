@@ -17,7 +17,7 @@
     <PackageReference Include="Volo.Abp.AutoMapper" Version="4.1.2" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="BootstrapBlazor" Version="5.0.11" />
+    <PackageReference Include="BootstrapBlazor" Version="5.0.13-beta05" />
     <PackageReference Include="Syncfusion.Blazor" Version="18.4.0.35" />
     <PackageReference Include="Microsoft.FeatureManagement" Version="2.2.0" />
   </ItemGroup>

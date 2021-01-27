@@ -12,7 +12,7 @@ namespace Abp.BootstrapTheme.Blazor.Host
     {
         public static async Task Main(string[] args)
         {
-            var levelSwitch = new Serilog.Core.LoggingLevelSwitch();
+           var levelSwitch = new Serilog.Core.LoggingLevelSwitch();
             Log.Logger = new LoggerConfiguration()
                 .MinimumLevel.ControlledBy(levelSwitch)
                 .Enrich.WithProperty("InstanceId", Guid.NewGuid().ToString("n"))
@@ -21,7 +21,7 @@ namespace Abp.BootstrapTheme.Blazor.Host
                 .CreateLogger();
 
             Log.Information("Hello, browser!");
-
+           
             var builder = WebAssemblyHostBuilder.CreateDefault(args);
 
             var application = builder.AddApplication<BootstrapThemeBlazorHostModule>(options =>
