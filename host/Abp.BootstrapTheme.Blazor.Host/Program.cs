@@ -1,8 +1,10 @@
+using System;
 using System.Globalization;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.JSInterop;
+using Serilog;
 
 namespace Abp.BootstrapTheme.Blazor.Host
 {
@@ -10,6 +12,16 @@ namespace Abp.BootstrapTheme.Blazor.Host
     {
         public static async Task Main(string[] args)
         {
+           var levelSwitch = new Serilog.Core.LoggingLevelSwitch();
+            Log.Logger = new LoggerConfiguration()
+                .MinimumLevel.ControlledBy(levelSwitch)
+                .Enrich.WithProperty("InstanceId", Guid.NewGuid().ToString("n"))
+                .WriteTo.BrowserConsole()
+                .WriteTo.BrowserHttp(controlLevelSwitch: levelSwitch)
+                .CreateLogger();
+
+            Log.Information("Hello, browser!");
+           
             var builder = WebAssemblyHostBuilder.CreateDefault(args);
 
             var application = builder.AddApplication<BootstrapThemeBlazorHostModule>(options =>

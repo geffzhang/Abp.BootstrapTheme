@@ -55,6 +55,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Abp.BootstrapTheme.Manageme
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Abp.AspNetCore.Components.WebAssembly.BootstrapTheme", "src\Abp.AspNetCore.Components.WebAssembly.BootstrapTheme\Abp.AspNetCore.Components.WebAssembly.BootstrapTheme.csproj", "{CE224A30-C902-45B8-946A-515F8E5A4101}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abp.BootstrapTheme.Blazor.ServerHost", "host\Abp.BootstrapTheme.Blazor.ServerHost\Abp.BootstrapTheme.Blazor.ServerHost.csproj", "{5A8B898C-A568-477A-A63C-B15DB5C528B7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -153,6 +155,10 @@ Global
 		{CE224A30-C902-45B8-946A-515F8E5A4101}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CE224A30-C902-45B8-946A-515F8E5A4101}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CE224A30-C902-45B8-946A-515F8E5A4101}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A8B898C-A568-477A-A63C-B15DB5C528B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A8B898C-A568-477A-A63C-B15DB5C528B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A8B898C-A568-477A-A63C-B15DB5C528B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A8B898C-A568-477A-A63C-B15DB5C528B7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -181,6 +187,7 @@ Global
 		{732F84A9-5157-47BA-9564-469F1CC857BF} = {649A3FFA-182F-4E56-9717-E6A9A2BEC545}
 		{EDD21396-2B49-4803-ABCA-63E07CBCEEAA} = {649A3FFA-182F-4E56-9717-E6A9A2BEC545}
 		{CE224A30-C902-45B8-946A-515F8E5A4101} = {649A3FFA-182F-4E56-9717-E6A9A2BEC545}
+		{5A8B898C-A568-477A-A63C-B15DB5C528B7} = {E400416D-2895-4512-9D17-90681EEC7E0A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4324B3B4-B60B-4E3C-91D8-59576B4E26DD}
