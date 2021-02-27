@@ -8,11 +8,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.8.3" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Proxies" Version="5.0.2" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.9.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Proxies" Version="5.0.3" />
     <ProjectReference Include="..\..\src\Abp.BootstrapTheme.EntityFrameworkCore\Abp.BootstrapTheme.Management.EntityFrameworkCore.csproj" />
     <ProjectReference Include="..\Abp.BootstrapTheme.TestBase\Abp.BootstrapTheme.TestBase.csproj" />
-    <PackageReference Include="Volo.Abp.EntityFrameworkCore.Sqlite" Version="4.1.2" />
+    <PackageReference Include="Volo.Abp.EntityFrameworkCore.Sqlite" Version="4.2.1" />
   </ItemGroup>
 
 </Project>
