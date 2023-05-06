@@ -1,0 +1,65 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Abp.BootstrapThemeUI
+build_property.RootNamespace = Abp.BootstrapThemeUI
+build_property.ProjectDir = C:\Users\zsygz\Documents\GitHub\Abp.BootstrapTheme\src\Abp.BootstrapThemeUI\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\zsygz\Documents\GitHub\Abp.BootstrapTheme\src\Abp.BootstrapThemeUI
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/zsygz/Documents/GitHub/Abp.BootstrapTheme/src/Abp.BootstrapThemeUI/Components/AbpExtensibleDataGrid.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBYnBFeHRlbnNpYmxlRGF0YUdyaWQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zsygz/Documents/GitHub/Abp.BootstrapTheme/src/Abp.BootstrapThemeUI/Components/ObjectExtending/CheckExtensionProperty.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xPYmplY3RFeHRlbmRpbmdcQ2hlY2tFeHRlbnNpb25Qcm9wZXJ0eS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zsygz/Documents/GitHub/Abp.BootstrapTheme/src/Abp.BootstrapThemeUI/Components/ObjectExtending/DateTimeExtensionProperty.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xPYmplY3RFeHRlbmRpbmdcRGF0ZVRpbWVFeHRlbnNpb25Qcm9wZXJ0eS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zsygz/Documents/GitHub/Abp.BootstrapTheme/src/Abp.BootstrapThemeUI/Components/ObjectExtending/ExtensionProperties.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xPYmplY3RFeHRlbmRpbmdcRXh0ZW5zaW9uUHJvcGVydGllcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zsygz/Documents/GitHub/Abp.BootstrapTheme/src/Abp.BootstrapThemeUI/Components/ObjectExtending/LookupExtensionProperty.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xPYmplY3RFeHRlbmRpbmdcTG9va3VwRXh0ZW5zaW9uUHJvcGVydHkucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zsygz/Documents/GitHub/Abp.BootstrapTheme/src/Abp.BootstrapThemeUI/Components/ObjectExtending/SelectExtensionProperty.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xPYmplY3RFeHRlbmRpbmdcU2VsZWN0RXh0ZW5zaW9uUHJvcGVydHkucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zsygz/Documents/GitHub/Abp.BootstrapTheme/src/Abp.BootstrapThemeUI/Components/ObjectExtending/TextExtensionProperty.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xPYmplY3RFeHRlbmRpbmdcVGV4dEV4dGVuc2lvblByb3BlcnR5LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zsygz/Documents/GitHub/Abp.BootstrapTheme/src/Abp.BootstrapThemeUI/Components/ObjectExtending/TimeExtensionProperty.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xPYmplY3RFeHRlbmRpbmdcVGltZUV4dGVuc2lvblByb3BlcnR5LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zsygz/Documents/GitHub/Abp.BootstrapTheme/src/Abp.BootstrapThemeUI/Components/PageAlert.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlQWxlcnQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zsygz/Documents/GitHub/Abp.BootstrapTheme/src/Abp.BootstrapThemeUI/Components/ToolbarButton.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xUb29sYmFyQnV0dG9uLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zsygz/Documents/GitHub/Abp.BootstrapTheme/src/Abp.BootstrapThemeUI/Components/UiPageProgress.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xVaVBhZ2VQcm9ncmVzcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zsygz/Documents/GitHub/Abp.BootstrapTheme/src/Abp.BootstrapThemeUI/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 

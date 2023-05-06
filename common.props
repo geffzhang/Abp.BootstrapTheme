@@ -1,0 +1,12 @@
+<Project>
+  <PropertyGroup>
+    <LangVersion>latest</LangVersion>
+    <Version>0.1.0</Version>
+    <PackageProjectUrl>https://github.com/geffzhang/Abp.BootstrapTheme</PackageProjectUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/geffzhang/Abp.BootstrapTheme</RepositoryUrl>
+    <ABPPackageVersion>7.1.*</ABPPackageVersion>
+    <MicrosoftPackageVersion>7.0.*</MicrosoftPackageVersion>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4CBDF84A-2DF5-4CC0-A278-61E2162016B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abp.BootstrapThemeUI", "src\Abp.BootstrapThemeUI\Abp.BootstrapThemeUI.csproj", "{3AD3E10F-2736-4FE0-A906-94FF1591FF0C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "modules", "modules", "{E04D872B-1700-4EFE-9CDE-67C4015CE04C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BootstrapBlazorTheme", "BootstrapBlazorTheme", "{05DBA5D7-ADF8-470D-B53B-C52907FB2C7C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3AD3E10F-2736-4FE0-A906-94FF1591FF0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AD3E10F-2736-4FE0-A906-94FF1591FF0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AD3E10F-2736-4FE0-A906-94FF1591FF0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AD3E10F-2736-4FE0-A906-94FF1591FF0C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3AD3E10F-2736-4FE0-A906-94FF1591FF0C} = {4CBDF84A-2DF5-4CC0-A278-61E2162016B9}
+		{05DBA5D7-ADF8-470D-B53B-C52907FB2C7C} = {E04D872B-1700-4EFE-9CDE-67C4015CE04C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {275634CF-9360-4B31-A459-E832EDD10274}
+	EndGlobalSection
+EndGlobal
