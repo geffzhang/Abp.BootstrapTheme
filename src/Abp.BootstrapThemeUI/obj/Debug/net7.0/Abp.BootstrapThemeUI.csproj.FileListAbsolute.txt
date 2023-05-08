@@ -1,12 +1,12 @@
+C:\Users\zsygz\Documents\GitHub\Abp.BootstrapTheme\src\Abp.BootstrapThemeUI\bin\Debug\net7.0\Abp.BootstrapThemeUI.staticwebassets.runtime.json
+C:\Users\zsygz\Documents\GitHub\Abp.BootstrapTheme\src\Abp.BootstrapThemeUI\bin\Debug\net7.0\Abp.BootstrapThemeUI.deps.json
+C:\Users\zsygz\Documents\GitHub\Abp.BootstrapTheme\src\Abp.BootstrapThemeUI\bin\Debug\net7.0\Abp.BootstrapThemeUI.dll
+C:\Users\zsygz\Documents\GitHub\Abp.BootstrapTheme\src\Abp.BootstrapThemeUI\bin\Debug\net7.0\Abp.BootstrapThemeUI.pdb
 C:\Users\zsygz\Documents\GitHub\Abp.BootstrapTheme\src\Abp.BootstrapThemeUI\obj\Debug\net7.0\Abp.BootstrapThemeUI.csproj.AssemblyReference.cache
 C:\Users\zsygz\Documents\GitHub\Abp.BootstrapTheme\src\Abp.BootstrapThemeUI\obj\Debug\net7.0\Abp.BootstrapThemeUI.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\zsygz\Documents\GitHub\Abp.BootstrapTheme\src\Abp.BootstrapThemeUI\obj\Debug\net7.0\Abp.BootstrapThemeUI.AssemblyInfoInputs.cache
 C:\Users\zsygz\Documents\GitHub\Abp.BootstrapTheme\src\Abp.BootstrapThemeUI\obj\Debug\net7.0\Abp.BootstrapThemeUI.AssemblyInfo.cs
 C:\Users\zsygz\Documents\GitHub\Abp.BootstrapTheme\src\Abp.BootstrapThemeUI\obj\Debug\net7.0\Abp.BootstrapThemeUI.csproj.CoreCompileInputs.cache
-C:\Users\zsygz\Documents\GitHub\Abp.BootstrapTheme\src\Abp.BootstrapThemeUI\bin\Debug\net7.0\Abp.BootstrapThemeUI.staticwebassets.runtime.json
-C:\Users\zsygz\Documents\GitHub\Abp.BootstrapTheme\src\Abp.BootstrapThemeUI\bin\Debug\net7.0\Abp.BootstrapThemeUI.deps.json
-C:\Users\zsygz\Documents\GitHub\Abp.BootstrapTheme\src\Abp.BootstrapThemeUI\bin\Debug\net7.0\Abp.BootstrapThemeUI.dll
-C:\Users\zsygz\Documents\GitHub\Abp.BootstrapTheme\src\Abp.BootstrapThemeUI\bin\Debug\net7.0\Abp.BootstrapThemeUI.pdb
 C:\Users\zsygz\Documents\GitHub\Abp.BootstrapTheme\src\Abp.BootstrapThemeUI\obj\Debug\net7.0\Abp.BootstrapThemeUI.csproj.Fody.CopyLocal.cache
 C:\Users\zsygz\Documents\GitHub\Abp.BootstrapTheme\src\Abp.BootstrapThemeUI\obj\Debug\net7.0\Abp.BootstrapThemeUI.csproj.Fody.RuntimeCopyLocal.cache
 C:\Users\zsygz\Documents\GitHub\Abp.BootstrapTheme\src\Abp.BootstrapThemeUI\obj\Debug\net7.0\staticwebassets\msbuild.Abp.BootstrapThemeUI.Microsoft.AspNetCore.StaticWebAssets.props

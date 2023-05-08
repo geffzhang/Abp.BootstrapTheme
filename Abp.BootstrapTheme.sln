@@ -5,11 +5,25 @@ VisualStudioVersion = 17.5.33530.505
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4CBDF84A-2DF5-4CC0-A278-61E2162016B9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abp.BootstrapThemeUI", "src\Abp.BootstrapThemeUI\Abp.BootstrapThemeUI.csproj", "{3AD3E10F-2736-4FE0-A906-94FF1591FF0C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Abp.BootstrapThemeUI", "src\Abp.BootstrapThemeUI\Abp.BootstrapThemeUI.csproj", "{3AD3E10F-2736-4FE0-A906-94FF1591FF0C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "modules", "modules", "{E04D872B-1700-4EFE-9CDE-67C4015CE04C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BootstrapBlazorTheme", "BootstrapBlazorTheme", "{05DBA5D7-ADF8-470D-B53B-C52907FB2C7C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Abp.Web.BootstrapBlazorTheme", "modules\BootstrapBlazorTheme\Abp.Web.BootstrapBlazorTheme\Abp.Web.BootstrapBlazorTheme.csproj", "{172C6B1C-722A-4BDA-AAA9-3E193A82C768}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Abp.Server.BootstrapBlazorTheme", "modules\BootstrapBlazorTheme\Abp.Server.BootstrapBlazorTheme\Abp.Server.BootstrapBlazorTheme.csproj", "{2CF6C167-5DD7-46D1-81A2-1693F927E2F1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Abp.WebAssembly.BootstrapBlazorTheme", "modules\BootstrapBlazorTheme\Abp.WebAssembly.BootstrapBlazorTheme\Abp.WebAssembly.BootstrapBlazorTheme.csproj", "{8D7C1E49-AE99-4327-BC3C-ACDE028DCD1C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FeatureManagement", "FeatureManagement", "{A6417B40-A57E-45CA-AD07-A96E50BC3BD1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abp.FeatureManagement.Blazor.BootstrapBlazorUI", "modules\FeatureManagement\Abp.FeatureManagement.Blazor.BootstrapBlazorUI\Abp.FeatureManagement.Blazor.BootstrapBlazorUI.csproj", "{3584D1AC-F8B4-4D47-BD6C-7A6C1200B520}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abp.FeatureManagement.Blazor.Server.BootstrapBlazorUI", "modules\FeatureManagement\Abp.FeatureManagement.Blazor.Server.BootstrapBlazorUI\Abp.FeatureManagement.Blazor.Server.BootstrapBlazorUI.csproj", "{DE5F17CF-111F-4DA4-9E40-7E604B8060CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abp.FeatureManagement.Blazor.WebAssembly.BootstrapBlazorUI", "modules\FeatureManagement\Abp.FeatureManagement.Blazor.WebAssembly.BootstrapBlazorUI\Abp.FeatureManagement.Blazor.WebAssembly.BootstrapBlazorUI.csproj", "{50D6113C-3B70-4B9D-8D2B-8E4CEBCCAF62}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +35,30 @@ Global
 		{3AD3E10F-2736-4FE0-A906-94FF1591FF0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3AD3E10F-2736-4FE0-A906-94FF1591FF0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3AD3E10F-2736-4FE0-A906-94FF1591FF0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{172C6B1C-722A-4BDA-AAA9-3E193A82C768}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{172C6B1C-722A-4BDA-AAA9-3E193A82C768}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{172C6B1C-722A-4BDA-AAA9-3E193A82C768}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{172C6B1C-722A-4BDA-AAA9-3E193A82C768}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CF6C167-5DD7-46D1-81A2-1693F927E2F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CF6C167-5DD7-46D1-81A2-1693F927E2F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CF6C167-5DD7-46D1-81A2-1693F927E2F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CF6C167-5DD7-46D1-81A2-1693F927E2F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D7C1E49-AE99-4327-BC3C-ACDE028DCD1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D7C1E49-AE99-4327-BC3C-ACDE028DCD1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D7C1E49-AE99-4327-BC3C-ACDE028DCD1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D7C1E49-AE99-4327-BC3C-ACDE028DCD1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3584D1AC-F8B4-4D47-BD6C-7A6C1200B520}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3584D1AC-F8B4-4D47-BD6C-7A6C1200B520}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3584D1AC-F8B4-4D47-BD6C-7A6C1200B520}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3584D1AC-F8B4-4D47-BD6C-7A6C1200B520}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE5F17CF-111F-4DA4-9E40-7E604B8060CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE5F17CF-111F-4DA4-9E40-7E604B8060CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE5F17CF-111F-4DA4-9E40-7E604B8060CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE5F17CF-111F-4DA4-9E40-7E604B8060CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50D6113C-3B70-4B9D-8D2B-8E4CEBCCAF62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50D6113C-3B70-4B9D-8D2B-8E4CEBCCAF62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50D6113C-3B70-4B9D-8D2B-8E4CEBCCAF62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50D6113C-3B70-4B9D-8D2B-8E4CEBCCAF62}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -28,6 +66,13 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{3AD3E10F-2736-4FE0-A906-94FF1591FF0C} = {4CBDF84A-2DF5-4CC0-A278-61E2162016B9}
 		{05DBA5D7-ADF8-470D-B53B-C52907FB2C7C} = {E04D872B-1700-4EFE-9CDE-67C4015CE04C}
+		{172C6B1C-722A-4BDA-AAA9-3E193A82C768} = {05DBA5D7-ADF8-470D-B53B-C52907FB2C7C}
+		{2CF6C167-5DD7-46D1-81A2-1693F927E2F1} = {05DBA5D7-ADF8-470D-B53B-C52907FB2C7C}
+		{8D7C1E49-AE99-4327-BC3C-ACDE028DCD1C} = {05DBA5D7-ADF8-470D-B53B-C52907FB2C7C}
+		{A6417B40-A57E-45CA-AD07-A96E50BC3BD1} = {E04D872B-1700-4EFE-9CDE-67C4015CE04C}
+		{3584D1AC-F8B4-4D47-BD6C-7A6C1200B520} = {A6417B40-A57E-45CA-AD07-A96E50BC3BD1}
+		{DE5F17CF-111F-4DA4-9E40-7E604B8060CE} = {A6417B40-A57E-45CA-AD07-A96E50BC3BD1}
+		{50D6113C-3B70-4B9D-8D2B-8E4CEBCCAF62} = {A6417B40-A57E-45CA-AD07-A96E50BC3BD1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {275634CF-9360-4B31-A459-E832EDD10274}
