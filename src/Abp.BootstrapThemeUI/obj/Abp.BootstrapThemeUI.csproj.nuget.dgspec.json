@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\zsygz\\Documents\\GitHub\\Abp.BootstrapTheme\\src\\Abp.BootstrapThemeUI\\Abp.BootstrapThemeUI.csproj": {}
+    "C:\\Abp.BootstrapTheme\\src\\Abp.BootstrapThemeUI\\Abp.BootstrapThemeUI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\zsygz\\Documents\\GitHub\\Abp.BootstrapTheme\\src\\Abp.BootstrapThemeUI\\Abp.BootstrapThemeUI.csproj": {
+    "C:\\Abp.BootstrapTheme\\src\\Abp.BootstrapThemeUI\\Abp.BootstrapThemeUI.csproj": {
       "version": "0.1.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\zsygz\\Documents\\GitHub\\Abp.BootstrapTheme\\src\\Abp.BootstrapThemeUI\\Abp.BootstrapThemeUI.csproj",
+        "projectUniqueName": "C:\\Abp.BootstrapTheme\\src\\Abp.BootstrapThemeUI\\Abp.BootstrapThemeUI.csproj",
         "projectName": "Abp.BootstrapThemeUI",
-        "projectPath": "C:\\Users\\zsygz\\Documents\\GitHub\\Abp.BootstrapTheme\\src\\Abp.BootstrapThemeUI\\Abp.BootstrapThemeUI.csproj",
+        "projectPath": "C:\\Abp.BootstrapTheme\\src\\Abp.BootstrapThemeUI\\Abp.BootstrapThemeUI.csproj",
         "packagesPath": "C:\\Users\\zsygz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\zsygz\\Documents\\GitHub\\Abp.BootstrapTheme\\src\\Abp.BootstrapThemeUI\\obj\\",
+        "outputPath": "C:\\Abp.BootstrapTheme\\src\\Abp.BootstrapThemeUI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

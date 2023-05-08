@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4GcvmPHKIva3YI3mERBB59KAzbzp2AyrMMEGTg5jsTIyY0nq1DT4gny2/2hURzwq2XJ+q0+OoXi8FEmE11xKlA==",
+  "dgSpecHash": "mJY021XM04MAAkKl9JfMlWSZbUblaKhDkwpaxxjp6VK3yKoH/FhxpLZCX5ZBroHceFbryaDWJf3/aCEVZYgs0Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\zsygz\\Documents\\GitHub\\Abp.BootstrapTheme\\src\\Abp.BootstrapThemeUI\\Abp.BootstrapThemeUI.csproj",
+  "projectFilePath": "C:\\Abp.BootstrapTheme\\src\\Abp.BootstrapThemeUI\\Abp.BootstrapThemeUI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\zsygz\\.nuget\\packages\\bootstrapblazor\\7.5.7\\bootstrapblazor.7.5.7.nupkg.sha512",
     "C:\\Users\\zsygz\\.nuget\\packages\\bootstrapblazor.fontawesome\\7.4.2\\bootstrapblazor.fontawesome.7.4.2.nupkg.sha512",

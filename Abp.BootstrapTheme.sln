@@ -19,11 +19,43 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Abp.WebAssembly.BootstrapBl
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FeatureManagement", "FeatureManagement", "{A6417B40-A57E-45CA-AD07-A96E50BC3BD1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abp.FeatureManagement.Blazor.BootstrapBlazorUI", "modules\FeatureManagement\Abp.FeatureManagement.Blazor.BootstrapBlazorUI\Abp.FeatureManagement.Blazor.BootstrapBlazorUI.csproj", "{3584D1AC-F8B4-4D47-BD6C-7A6C1200B520}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Abp.FeatureManagement.Blazor.BootstrapBlazorUI", "modules\FeatureManagement\Abp.FeatureManagement.Blazor.BootstrapBlazorUI\Abp.FeatureManagement.Blazor.BootstrapBlazorUI.csproj", "{3584D1AC-F8B4-4D47-BD6C-7A6C1200B520}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abp.FeatureManagement.Blazor.Server.BootstrapBlazorUI", "modules\FeatureManagement\Abp.FeatureManagement.Blazor.Server.BootstrapBlazorUI\Abp.FeatureManagement.Blazor.Server.BootstrapBlazorUI.csproj", "{DE5F17CF-111F-4DA4-9E40-7E604B8060CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Abp.FeatureManagement.Blazor.Server.BootstrapBlazorUI", "modules\FeatureManagement\Abp.FeatureManagement.Blazor.Server.BootstrapBlazorUI\Abp.FeatureManagement.Blazor.Server.BootstrapBlazorUI.csproj", "{DE5F17CF-111F-4DA4-9E40-7E604B8060CE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abp.FeatureManagement.Blazor.WebAssembly.BootstrapBlazorUI", "modules\FeatureManagement\Abp.FeatureManagement.Blazor.WebAssembly.BootstrapBlazorUI\Abp.FeatureManagement.Blazor.WebAssembly.BootstrapBlazorUI.csproj", "{50D6113C-3B70-4B9D-8D2B-8E4CEBCCAF62}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Abp.FeatureManagement.Blazor.WebAssembly.BootstrapBlazorUI", "modules\FeatureManagement\Abp.FeatureManagement.Blazor.WebAssembly.BootstrapBlazorUI\Abp.FeatureManagement.Blazor.WebAssembly.BootstrapBlazorUI.csproj", "{50D6113C-3B70-4B9D-8D2B-8E4CEBCCAF62}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IdentityManagement", "IdentityManagement", "{A97B5263-4C8D-4D3B-8CD3-DFDB6A5ABF00}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abp.IdentityManagement.Blazor.BootstrapBlazorUI", "modules\IdentityManagement\Abp.IdentityManagement.Blazor.BootstrapBlazorUI\Abp.IdentityManagement.Blazor.BootstrapBlazorUI.csproj", "{270127D5-514A-4F7F-A4B7-4DDBAF0F2842}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PermissionManagement", "PermissionManagement", "{374233BF-E1C7-4193-BB20-ACC18D7BF4F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abp.PermissionManagement.Blazor.BootstrapBlazorUI", "modules\PermissionManagement\Abp.PermissionManagement.Blazor.BootstrapBlazorUI\Abp.PermissionManagement.Blazor.BootstrapBlazorUI.csproj", "{F7071EBB-FB7F-498B-9350-D40F41416806}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abp.PermissionManagement.Blazor.Server.BootstrapBlazorUI", "modules\PermissionManagement\Abp.PermissionManagement.Blazor.Server.BootstrapBlazorUI\Abp.PermissionManagement.Blazor.Server.BootstrapBlazorUI.csproj", "{F6B2CA6E-54AB-4E46-BD5D-294633962254}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abp.PermissionManagement.Blazor.WebAssembly.BootstrapBlazorUI", "modules\PermissionManagement\Abp.PermissionManagement.Blazor.WebAssembly.BootstrapBlazorUI\Abp.PermissionManagement.Blazor.WebAssembly.BootstrapBlazorUI.csproj", "{79263090-A7AD-4E56-91C1-B35B6D95E891}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abp.IdentityManagement.Blazor.Server.BootstrapBlazorUI", "modules\IdentityManagement\Abp.IdentityManagement.Blazor.Server.BootstrapBlazorUI\Abp.IdentityManagement.Blazor.Server.BootstrapBlazorUI.csproj", "{B4E996C2-540D-4EED-AACF-D8ED051DED7C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abp.IdentityManagement.Blazor.WebAssembly.BootstrapBlazorUI", "modules\IdentityManagement\Abp.IdentityManagement.Blazor.WebAssembly.BootstrapBlazorUI\Abp.IdentityManagement.Blazor.WebAssembly.BootstrapBlazorUI.csproj", "{5559D5EB-56C6-4EBD-BC2C-40B4553C3726}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SettingManagement", "SettingManagement", "{DA091F9E-44F5-4CB8-A779-5ADF8DC65F08}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abp.SettingManagement.Blazor.BootstrapBlazorUI", "modules\SettingManagement\Abp.SettingManagement.Blazor.BootstrapBlazorUI\Abp.SettingManagement.Blazor.BootstrapBlazorUI.csproj", "{0322F70A-3CF6-4955-87D2-69FDD64BC987}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abp.SettingManagement.Blazor.Server.BootstrapBlazorUI", "modules\SettingManagement\Abp.SettingManagement.Blazor.Server.BootstrapBlazorUI\Abp.SettingManagement.Blazor.Server.BootstrapBlazorUI.csproj", "{14E89CE4-68CF-4306-A141-C332ECC11A0A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abp.SettingManagement.Blazor.WebAssembly.BootstrapBlazorUI", "modules\SettingManagement\Abp.SettingManagement.Blazor.WebAssembly.BootstrapBlazorUI\Abp.SettingManagement.Blazor.WebAssembly.BootstrapBlazorUI.csproj", "{5BE6EDC6-D59A-4491-994F-45ED1D9AF3B9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TenantManagement", "TenantManagement", "{B68012D6-519B-4A7D-AFB0-75B090AF888C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abp.TenantManagement.Blazor.BootstrapBlazorUI", "modules\TenantManagement\Abp.TenantManagement.Blazor.BootstrapBlazorUI\Abp.TenantManagement.Blazor.BootstrapBlazorUI.csproj", "{C2F6942A-1FCA-47CF-8380-380154E3BBE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abp.TenantManagement.Blazor.Server.BootstrapBlazorUI", "modules\TenantManagement\Abp.TenantManagement.Blazor.Server.BootstrapBlazorUI\Abp.TenantManagement.Blazor.Server.BootstrapBlazorUI.csproj", "{C6769A25-D7C6-41E0-8C13-E090F423C2E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abp.TenantManagement.Blazor.WebAssembly.BootstrapBlazorUI", "modules\TenantManagement\Abp.TenantManagement.Blazor.WebAssembly.BootstrapBlazorUI\Abp.TenantManagement.Blazor.WebAssembly.BootstrapBlazorUI.csproj", "{20EBA838-B1ED-4241-AA3E-D9531F6437A0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -59,6 +91,54 @@ Global
 		{50D6113C-3B70-4B9D-8D2B-8E4CEBCCAF62}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{50D6113C-3B70-4B9D-8D2B-8E4CEBCCAF62}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{50D6113C-3B70-4B9D-8D2B-8E4CEBCCAF62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{270127D5-514A-4F7F-A4B7-4DDBAF0F2842}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{270127D5-514A-4F7F-A4B7-4DDBAF0F2842}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{270127D5-514A-4F7F-A4B7-4DDBAF0F2842}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{270127D5-514A-4F7F-A4B7-4DDBAF0F2842}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7071EBB-FB7F-498B-9350-D40F41416806}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7071EBB-FB7F-498B-9350-D40F41416806}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7071EBB-FB7F-498B-9350-D40F41416806}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7071EBB-FB7F-498B-9350-D40F41416806}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6B2CA6E-54AB-4E46-BD5D-294633962254}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6B2CA6E-54AB-4E46-BD5D-294633962254}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6B2CA6E-54AB-4E46-BD5D-294633962254}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6B2CA6E-54AB-4E46-BD5D-294633962254}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79263090-A7AD-4E56-91C1-B35B6D95E891}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79263090-A7AD-4E56-91C1-B35B6D95E891}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79263090-A7AD-4E56-91C1-B35B6D95E891}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79263090-A7AD-4E56-91C1-B35B6D95E891}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4E996C2-540D-4EED-AACF-D8ED051DED7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4E996C2-540D-4EED-AACF-D8ED051DED7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4E996C2-540D-4EED-AACF-D8ED051DED7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4E996C2-540D-4EED-AACF-D8ED051DED7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5559D5EB-56C6-4EBD-BC2C-40B4553C3726}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5559D5EB-56C6-4EBD-BC2C-40B4553C3726}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5559D5EB-56C6-4EBD-BC2C-40B4553C3726}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5559D5EB-56C6-4EBD-BC2C-40B4553C3726}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0322F70A-3CF6-4955-87D2-69FDD64BC987}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0322F70A-3CF6-4955-87D2-69FDD64BC987}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0322F70A-3CF6-4955-87D2-69FDD64BC987}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0322F70A-3CF6-4955-87D2-69FDD64BC987}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14E89CE4-68CF-4306-A141-C332ECC11A0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14E89CE4-68CF-4306-A141-C332ECC11A0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14E89CE4-68CF-4306-A141-C332ECC11A0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14E89CE4-68CF-4306-A141-C332ECC11A0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BE6EDC6-D59A-4491-994F-45ED1D9AF3B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BE6EDC6-D59A-4491-994F-45ED1D9AF3B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BE6EDC6-D59A-4491-994F-45ED1D9AF3B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BE6EDC6-D59A-4491-994F-45ED1D9AF3B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2F6942A-1FCA-47CF-8380-380154E3BBE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2F6942A-1FCA-47CF-8380-380154E3BBE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2F6942A-1FCA-47CF-8380-380154E3BBE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2F6942A-1FCA-47CF-8380-380154E3BBE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6769A25-D7C6-41E0-8C13-E090F423C2E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6769A25-D7C6-41E0-8C13-E090F423C2E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6769A25-D7C6-41E0-8C13-E090F423C2E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6769A25-D7C6-41E0-8C13-E090F423C2E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20EBA838-B1ED-4241-AA3E-D9531F6437A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20EBA838-B1ED-4241-AA3E-D9531F6437A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20EBA838-B1ED-4241-AA3E-D9531F6437A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20EBA838-B1ED-4241-AA3E-D9531F6437A0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -73,6 +153,22 @@ Global
 		{3584D1AC-F8B4-4D47-BD6C-7A6C1200B520} = {A6417B40-A57E-45CA-AD07-A96E50BC3BD1}
 		{DE5F17CF-111F-4DA4-9E40-7E604B8060CE} = {A6417B40-A57E-45CA-AD07-A96E50BC3BD1}
 		{50D6113C-3B70-4B9D-8D2B-8E4CEBCCAF62} = {A6417B40-A57E-45CA-AD07-A96E50BC3BD1}
+		{A97B5263-4C8D-4D3B-8CD3-DFDB6A5ABF00} = {E04D872B-1700-4EFE-9CDE-67C4015CE04C}
+		{270127D5-514A-4F7F-A4B7-4DDBAF0F2842} = {A97B5263-4C8D-4D3B-8CD3-DFDB6A5ABF00}
+		{374233BF-E1C7-4193-BB20-ACC18D7BF4F6} = {E04D872B-1700-4EFE-9CDE-67C4015CE04C}
+		{F7071EBB-FB7F-498B-9350-D40F41416806} = {374233BF-E1C7-4193-BB20-ACC18D7BF4F6}
+		{F6B2CA6E-54AB-4E46-BD5D-294633962254} = {374233BF-E1C7-4193-BB20-ACC18D7BF4F6}
+		{79263090-A7AD-4E56-91C1-B35B6D95E891} = {374233BF-E1C7-4193-BB20-ACC18D7BF4F6}
+		{B4E996C2-540D-4EED-AACF-D8ED051DED7C} = {A97B5263-4C8D-4D3B-8CD3-DFDB6A5ABF00}
+		{5559D5EB-56C6-4EBD-BC2C-40B4553C3726} = {A97B5263-4C8D-4D3B-8CD3-DFDB6A5ABF00}
+		{DA091F9E-44F5-4CB8-A779-5ADF8DC65F08} = {E04D872B-1700-4EFE-9CDE-67C4015CE04C}
+		{0322F70A-3CF6-4955-87D2-69FDD64BC987} = {DA091F9E-44F5-4CB8-A779-5ADF8DC65F08}
+		{14E89CE4-68CF-4306-A141-C332ECC11A0A} = {DA091F9E-44F5-4CB8-A779-5ADF8DC65F08}
+		{5BE6EDC6-D59A-4491-994F-45ED1D9AF3B9} = {DA091F9E-44F5-4CB8-A779-5ADF8DC65F08}
+		{B68012D6-519B-4A7D-AFB0-75B090AF888C} = {E04D872B-1700-4EFE-9CDE-67C4015CE04C}
+		{C2F6942A-1FCA-47CF-8380-380154E3BBE1} = {B68012D6-519B-4A7D-AFB0-75B090AF888C}
+		{C6769A25-D7C6-41E0-8C13-E090F423C2E4} = {B68012D6-519B-4A7D-AFB0-75B090AF888C}
+		{20EBA838-B1ED-4241-AA3E-D9531F6437A0} = {B68012D6-519B-4A7D-AFB0-75B090AF888C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {275634CF-9360-4B31-A459-E832EDD10274}
